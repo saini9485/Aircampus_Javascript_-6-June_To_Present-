@@ -1,5 +1,5 @@
-//let n = 0;
-for(let i=0;i<=100;i++){
-    //let a = parseInt(process.argv[1]);
+let n1 =parseInt(process.argv[2]) ;
+let n2 = parseInt(process.argv[3]);
+for(let i=n1;i<=n2;i++){
     console.log(i);
     }  
