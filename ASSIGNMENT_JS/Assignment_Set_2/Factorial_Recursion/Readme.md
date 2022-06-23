@@ -1,2 +1,2 @@
-<h1>Output of Factorial </h1>
+<h1>print factorial using recursing </h1>
 <img src ="output.png">
