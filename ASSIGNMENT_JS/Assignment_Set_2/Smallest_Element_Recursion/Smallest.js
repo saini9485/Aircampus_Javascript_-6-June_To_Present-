@@ -12,5 +12,5 @@ function recur(arr, smallest){
         return recur(arr, smallest);
     }
 }
-console.log(recur( 2,5,6,8,4,)) 
+console.log(recur( 2,5,6,8,4,5,)) 
  
