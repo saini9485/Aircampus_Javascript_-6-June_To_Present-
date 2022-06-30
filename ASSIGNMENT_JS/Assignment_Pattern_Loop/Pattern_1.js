@@ -4,7 +4,7 @@ for(i=1;i<=num;i++){
     stars =''
     for(j=1;j<=num;j++){
         if(i==j||i+j==num+1){
-            stars += '*'
+            stars += ' * '
         }else{
             stars += ' '
         }
