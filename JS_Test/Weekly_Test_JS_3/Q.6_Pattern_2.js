@@ -1,6 +1,6 @@
 //print pattern
 
-let num = 7;
+let num = 6;
 let i,j;
 for(i=1;i<num;i++){
   let count = '';
