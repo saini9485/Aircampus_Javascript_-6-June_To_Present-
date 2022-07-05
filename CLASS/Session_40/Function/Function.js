@@ -13,7 +13,7 @@ console.log(sum)*/
         sum  += rem**2
        let num = Math.floor(num/10)
     } 
-}
+}    
 let ans = sumofSquare(49)
 console.log(ans)*/
 //2. Arrow Function         //1. let/const
