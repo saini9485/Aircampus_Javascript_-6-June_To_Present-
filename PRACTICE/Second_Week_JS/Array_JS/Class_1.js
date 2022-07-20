@@ -6,11 +6,11 @@ console.log(myArray.length);  //"NUMBER OF Length"
 // second element
 console.log(myArray[0]); // "h"
 
-var people = [ "Rajesh", "Virendra","vimal", "Hariom"]
+let people = [ "Rajesh", "Virendra","vimal", "Hariom"]
      
-    var name = 'Rajesh';
-    var age = 22;
-    var location = 'Noida';
+    let name = 'Rajesh';
+    let age = 22;
+    let location = 'Noida';
     console.log(people[3]);
     
     let familytdate = {
