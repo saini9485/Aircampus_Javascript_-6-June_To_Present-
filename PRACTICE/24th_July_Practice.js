@@ -191,11 +191,20 @@
 // }
 // console.log(length([1,20,32,47,58,96,23]))//7
  // find the maximum values of array
+// let nums = [1,20,32,47,58,96,23]
+// let max = 0;
+// for(let i=0;i<nums.length;i++){
+//     if(max<nums[i]){
+//         max = nums[i]
+//     }
+// }
+// console.log(max)//96
+//find the minimum values of array
 let nums = [1,20,32,47,58,96,23]
-let max = 0;
-for(let i=0;i<nums.length;i++){
-    if(max<nums[i]){
-        max = nums[i]
+let min =nums [0];
+for(let i=1;i<nums.length;i++){
+    if(min>nums[i]){
+        min = nums[i]
     }
 }
-console.log(max)//96
+console.log(min)
