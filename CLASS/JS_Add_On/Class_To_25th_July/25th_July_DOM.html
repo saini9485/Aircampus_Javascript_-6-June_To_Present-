@@ -7,10 +7,11 @@
     <title>Document</title>
   </head>
   <body>
-    <button class="myButton">courses</button>
+    <button class="myButton">add</button>
+    <button class="myButton2">remove</button>
     <div style="display: none; background-color: rgb(18, 237, 98)">
       <ul>
-        <li>development</li>
+        <li>Web development</li>
         <li>HTML</li>
         <li>CSS</li>
         <li>JS</li>
@@ -19,14 +20,18 @@
   </body>
   <script>
     let Button = document.querySelector(".myButton");
+    let Button2 = document.querySelector(".myButton2");
     let div = document.querySelector("div");
-    Button.addEventListener("click", Myfunction);
-    function Myfunction() {
-      if (div.style.display == "none") {
-        div.style.display = "Block";
-      } else {
-        div.style.display = "none";
+    Button.addEventListener("click", MyFunction);
+    Button2.addEventListener("click", MyFunction2);
+    function MyFunction() {
+    //   if (div.style.display == "none") {
+    //     div.style.display = "Block";
+    //   } else {
+        div.style.display = "block";
       }
-    }
+      function myFunction2(){
+        div.style.display ="none"
+      }  
   </script>
 </html>
