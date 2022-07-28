@@ -46,19 +46,47 @@
 //5. "!" operator
 //falsy value
 //false , 0 , "",NaN, null, undefine
-console.log(0)//0
-console.log(!0)//True
-console.log(!!0)//false
-console.log(0)//
-console.log("")// empty
-console.log(!"") //True
-console.log(!!"") //false
-console.log(!NaN) //True
-console.log(!!NaN) //false
-console.log(!null) //True
-console.log(!!null) //false
-console.log(!undefine) //true
-console.log(!!undefine) //false
+// console.log(0)//0
+// console.log(!0)//True
+// console.log(!!0)//false
+// console.log(0)//
+// console.log("")// empty
+// console.log(!"") //True
+// console.log(!!"") //false
+// console.log(!NaN) //True
+// console.log(!!NaN) //false
+// console.log(!null) //True
+// console.log(!!null) //false
+// console.log(!undefine) //true
+// console.log(!!undefine) //false
+//6. "||" operator
+/* ||(or) operator first it will be check first condition if first 
+condition will be true then then print first value , if first condition will be 
+false then check second condition if second condition will be true then print second value
+, if both condition will be false then print second value 
+Example:- console.log(220||"hello") => 220 this condition is true that's why it is printing 220,
+console.log(false||220) => 220 here first condition is false that's again it is printing 220 ,
+*/ 
+// console.log(220||"hello")//220
+// console.log("hello"||220) // hello 
+// console.log("hello"||"hello") // hello
+// console.log(false||"hello") // hello
+// console.log(false||0) // 0
+// console.log(false||200) // 200
+// console.log(false||null) // null
+// console.log(undefine||200) // 200
+// console.log(null||200) // 200
+//"&&" operator
+/*&&(and) operator be both value if first condition will be true and second 
+condition will be also true then it will be second value 
+Example:-console.log(200&&"hello") => hello , because it will check both condition 
+ */
+console.log(200&&"hello")//hello
+console.log("hello"&&200)//200
+console.log("Hello1"&&"hello2")//hello2
+console.log("Hello1"&&false)//hello2
+
+//console.log(220||"hello")
 // Variable :-
 //what is variable 
 //variable is a container where we store the value
@@ -81,5 +109,6 @@ console.log(!!undefine) //false
 //b.String   => "hello"
 //c.array  => [1,2,3]
 //d.Object  {}
+
 
 
