@@ -80,13 +80,11 @@ console.log(false||220) => 220 here first condition is false that's again it is 
 /*&&(and) operator be both value if first condition will be true and second 
 condition will be also true then it will be second value 
 Example:-console.log(200&&"hello") => hello , because it will check both condition 
- */
-console.log(200&&"hello")//hello
-console.log("hello"&&200)//200
-console.log("Hello1"&&"hello2")//hello2
-console.log("Hello1"&&false)//hello2
-
-//console.log(220||"hello")
+ in every condition it will return second*/
+// console.log(200&&"hello")//hello
+// console.log("hello"&&200)//200
+// console.log("Hello1"&&"hello2")//hello2
+// console.log("Hello1"&&false)//false
 // Variable :-
 //what is variable 
 //variable is a container where we store the value
@@ -94,7 +92,7 @@ console.log("Hello1"&&false)//hello2
 //2. let :- we can reassign value but can not redeclear value
 //3. const :- we can not reassign and can not redeclear value both
 //why it is called variable :-
-//because this value be varry
+//because this value be vary
 //what is datatype;-
 //there are two datatype 
 //1.primitive datatype
@@ -109,6 +107,25 @@ console.log("Hello1"&&false)//hello2
 //b.String   => "hello"
 //c.array  => [1,2,3]
 //d.Object  {}
+//if, else, else if statement 
+//print greets according to time 
+//given time,
+//1. time > 1 & time<12 => Good morning,
+//2. time>12 & time <15 => good afternoon
+//3. time > 15 & time <18 => good evening,
+//4. time > 18 => good night 
+let time = 14;
+if(time >1  &&  time< 12){
+    console.log("good morning")
+} else  if(time >12  &&  time< 15){
+    console.log("good afternoon")
+} else if(time >15  &&  time< 18){
+    console.log("good evening")
+} else {
+    console.log("good night")
+}
+
+
 
 
 
