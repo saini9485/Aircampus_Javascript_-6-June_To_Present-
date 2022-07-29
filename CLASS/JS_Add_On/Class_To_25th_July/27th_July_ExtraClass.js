@@ -114,16 +114,16 @@ Example:-console.log(200&&"hello") => hello , because it will check both conditi
 //2. time>12 & time <15 => good afternoon
 //3. time > 15 & time <18 => good evening,
 //4. time > 18 => good night 
-let time = 14;
-if(time >1  &&  time< 12){
-    console.log("good morning")
-} else  if(time >12  &&  time< 15){
-    console.log("good afternoon")
-} else if(time >15  &&  time< 18){
-    console.log("good evening")
-} else {
-    console.log("good night")
-}
+// let time = 14;
+// if(time >1  &&  time< 12){
+//     console.log("good morning")
+// } else  if(time >12  &&  time< 15){
+//     console.log("good afternoon")
+// } else if(time >15  &&  time< 18){
+//     console.log("good evening")
+// } else {
+//     console.log("good night")
+// }
 
 
 
