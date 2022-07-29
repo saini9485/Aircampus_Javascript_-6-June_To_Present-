@@ -11,13 +11,23 @@
 //  });
 //  console.log(even)
 //function declaration and function expression
-function declaration (){
-    console.log("declaration")
-} declaration()
+// function declaration (){
+//     console.log("declaration")
+// } declaration()     => declaration
 
-const expression = function  (){
-    console.log("expression")
+// const expression = function  (){
+//     console.log("expression")
+// }
+//  expression() => expression
+
+declaration()
+expression()
+function declaration(){
+    console.log('decralation')          //=> declaration
 }
- expression()
+
+const expression = function (){
+    console.log("expression")           //=> error
+}
 
 
