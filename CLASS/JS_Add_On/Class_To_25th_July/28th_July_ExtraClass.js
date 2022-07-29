@@ -20,14 +20,57 @@
 // }
 //  expression() => expression
 
-declaration()
-expression()
-function declaration(){
-    console.log('decralation')          //=> declaration
-}
+// declaration()
+// expression()
+// function declaration(){
+//     console.log('decralation')          //=> declaration
+// }
 
-const expression = function (){
-    console.log("expression")           //=> error
+// const expression = function (){
+//     console.log("expression")           //=> error
+// }
+// add ()
+// function add (){
+//     console.log("adding")       //=> adding
+// }
+// setTimeout (() => {
+//  console.log("Rajesh")
+// },0) 
+
+// sub ()
+// const sub = function (){
+//     console.log("subtracting")              //=>error
+// }
+
+// setTimeout (() =>{
+// console.log("virendra")      //=>code here will stop because first is error
+
+// },2000)
+
+// setTimeout (()=>{
+// console.log("Mithun")
+// },2000)
+
+add ()
+function add (){
+    console.log("adding")       //=> adding
 }
+setTimeout (() => {
+ console.log("Rajesh")
+},0) 
+
+
+const sub = function (){
+    console.log("subtracting")              //=>subtracting
+}
+sub ()
+setTimeout (() =>{
+console.log("virendra")      //=> virendra
+ 
+},2000)
+
+setTimeout (()=>{
+console.log("Mithun")           //=> Mithun
+},2000)
 
 
