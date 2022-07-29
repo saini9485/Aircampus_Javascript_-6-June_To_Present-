@@ -1,0 +1,28 @@
+.child {
+    height: 2rem;
+    width: 2rem;
+    background-color: dodgerblue;
+  }
+  
+  .parent {
+    height: 4rem;
+    width: 4rem;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .grandparent {
+    height: 6rem;
+    width: 6rem;
+    background-color: magenta;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  body {
+    padding: 5rem;
+    font-size: 10px;
+  }
