@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <ul>
+        <li id ="list1">data1</li>
+        <li class = "list">data2</li>
+        <li class = "list">data3</li>
+    </ul>
+    <p> dom is a document object modale with the help</p>
+</body>
+<script> 
+let ele = document.getElementById("list1")
+//ele.innerHTML = "hello"
+ele.style.color = "red"
+ele.style.border ="solid blue"
+let ele1 = document.getElementsByClassName(".list")
+let ele2 = document.getElementsByTagName("p")
+</script>
+</html>
