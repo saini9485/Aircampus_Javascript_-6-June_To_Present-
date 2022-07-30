@@ -55,11 +55,39 @@
 // add()  //=> it will print empty object 
 // but if you don't want use arrow then you can 'new' keyword in 
 //normal function 
-function add (){
-    console.log(this)
-}
-new add() //=> it will also print empty object 
+// function add (){
+//     console.log(this)
+// }
+// new add() //=> it will also print empty object 
+//this new key is converting normal function as a arrow function 
+// array destructuring 
+// let arr = [1,2,3,4,5,6,7]
+// let [num1,num2] =arr
+// console.log(num1,num2)
 
+// //object destructuring
+// let obj = {
+//     name: "Rajesh",
+//     age : 21,
+//     location:"india",
+// }
+// let {name,age,location} =obj
+// console.log(name,age,location)
+// add new element in array
+//add '6' b/t 2 ... 3 
+// let arr = [1,2,3,4,5]
+
+// arr.splice(2,0,6)
+// console.log(arr)
+// find value and key in object 
+let obj = {
+    name: "Rajesh",
+    age: 21,
+    location:"india"
+}
+for(let key in obj){
+    console.log(key, obj[key])
+}
 
 
 
