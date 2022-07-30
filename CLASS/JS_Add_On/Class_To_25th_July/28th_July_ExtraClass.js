@@ -51,26 +51,32 @@
 // console.log("Mithun")
 // },2000)
 
-add ()
-function add (){
-    console.log("adding")       //=> adding
-}
-setTimeout (() => {
- console.log("Rajesh")
-},0) 
+// add ()
+// function add (){
+//     console.log("adding")       //=> adding
+// }
+// setTimeout (() => {
+//  console.log("Rajesh")
+// },0) 
 
 
-const sub = function (){
-    console.log("subtracting")              //=>subtracting
-}
-sub ()
-setTimeout (() =>{
-console.log("virendra")      //=> virendra
+// const sub = function (){
+//     console.log("subtracting")              //=>subtracting
+// }
+// sub ()
+// setTimeout (() =>{
+// console.log("virendra")      //=> virendra
  
-},2000)
+// },2000)
+
+// setTimeout (()=>{
+// console.log("Mithun")           //=> Mithun
+// },20000)
+
+const clearing = setInterval (()=>{
+console.log("hello")
+},1000)
 
 setTimeout (()=>{
-console.log("Mithun")           //=> Mithun
+clearInterval(clearing)
 },2000)
-
-
