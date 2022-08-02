@@ -1,26 +1,10 @@
-/* .fd{
-    border:10px solid rgb(99, 219, 191);
-    border-radius: 5px;
-    padding: 10px;
-    text-align: center;
-    font-weight: bold;
-    width: 25%;
-    margin-left:20px ;
-} */
-/* #btn{
-    font-size: 15px;
-    padding: 15px 40px 15px 40px;
-    margin-left: 20px;
-    background-color: rgba(29, 187, 29, 0.851);
-    color: white;
-} */
 #button{
     font-size: 15px;
     padding: 15px 40px 15px 40px;
     margin-left: 20px;
-    background-color: rgba(29, 187, 29, 0.851);
+    background-color: rgba(10, 14, 240, 0.851);
     color: white;
-    border: none;
+    border: solid black;
 }
 table td input{
     border:10px solid rgb(99, 219, 191);
@@ -30,11 +14,11 @@ table td input{
     font-weight: bold;
     width: 80%;
     margin-left:20px ;
+    border: solid blueviolet
 }
 table{
     width: 90%;
     margin-top: 100px;
-
 }
 
 tr th{
@@ -46,13 +30,12 @@ tr th{
     width: 30%;
 }
 #remove{
-    border: none;
+    border: solid black;
     border-radius: 5px;
     padding: 10px;
     text-align: center;
     font-weight: bold;
-    /* width: 80%; */
-    background-color: rgb(38, 0, 255);
+    background-color: rgb(255, 0, 0);
     margin-left:20px ;
 
 }
