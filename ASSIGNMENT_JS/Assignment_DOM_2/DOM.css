@@ -1,0 +1,58 @@
+/* .fd{
+    border:10px solid rgb(99, 219, 191);
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    width: 25%;
+    margin-left:20px ;
+} */
+/* #btn{
+    font-size: 15px;
+    padding: 15px 40px 15px 40px;
+    margin-left: 20px;
+    background-color: rgba(29, 187, 29, 0.851);
+    color: white;
+} */
+#button{
+    font-size: 15px;
+    padding: 15px 40px 15px 40px;
+    margin-left: 20px;
+    background-color: rgba(29, 187, 29, 0.851);
+    color: white;
+    border: none;
+}
+table td input{
+    border:10px solid rgb(99, 219, 191);
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    width: 80%;
+    margin-left:20px ;
+}
+table{
+    width: 90%;
+    margin-top: 100px;
+
+}
+
+tr th{
+    background-color: rgb(99, 219, 191);
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    width: 30%;
+}
+#remove{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    /* width: 80%; */
+    background-color: rgb(38, 0, 255);
+    margin-left:20px ;
+
+}
