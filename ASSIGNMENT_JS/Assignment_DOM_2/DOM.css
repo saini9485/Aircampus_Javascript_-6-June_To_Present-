@@ -7,14 +7,14 @@
     border: solid black;
 }
 table td input{
-    border:10px solid rgb(99, 219, 191);
+    border:10px solid rgb(12, 43, 217);
     border-radius: 5px;
     padding: 10px;
     text-align: center;
     font-weight: bold;
-    width: 80%;
+    width: 70%;
     margin-left:20px ;
-    border: solid blueviolet
+    border: solid rgb(127, 14, 233)
 }
 table{
     width: 90%;
@@ -22,7 +22,7 @@ table{
 }
 
 tr th{
-    background-color: rgb(99, 219, 191);
+    background-color: rgb(26, 215, 67);
     border-radius: 5px;
     padding: 10px;
     text-align: center;
@@ -38,4 +38,12 @@ tr th{
     background-color: rgb(255, 0, 0);
     margin-left:20px ;
 
+}
+td {
+    background: #bdbd26;
+    border: solid 2px black;
+    text-align: center;
+}
+h1{
+    border: solid 2px blue
 }

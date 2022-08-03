@@ -1,44 +1,38 @@
-var list1 = [];
-var list2 = [];
-var list3 = [];
-var list4 = [];
-var list5 = [];
+var Data1 = [];
+var Data2 = [];
+var Data3 = [];
+var Data4 = [];
+var Data5 = [];
 let n = 1;
-let x = 0;
+let m = 0;
 function AddRow() {
-  var addRow = document.getElementById("show");
+  var addRow = document.getElementById("main-table");
   var newRow = addRow.insertRow(n);
 
-  list1[x] = document.getElementById("fname").value;
-  list2[x] = document.getElementById("email").value;
-  list3[x] = document.getElementById("phone").value;
-  list4[x] = document.getElementById("course").value;
+  Data1[m] = document.getElementById("fname").value;
+  Data2[m] = document.getElementById("email").value;
+  Data3[m] = document.getElementById("phone").value;
+  Data4[m] = document.getElementById("course").value;
 
   var cell1 = newRow.insertCell(0);
   var cell2 = newRow.insertCell(1);
   var cell3 = newRow.insertCell(2);
   var cell4 = newRow.insertCell(3);
   var cell5 = newRow.insertCell(4);
-  cell1.innerHTML = list1[x];
-  cell2.innerHTML = list2[x];
-  cell3.innerHTML = list3[x];
-  cell4.innerHTML = list4[x];
+  cell1.innerHTML = Data1[m];
+  cell2.innerHTML = Data2[m];
+  cell3.innerHTML = Data3[m];
+  cell4.innerHTML = Data4[m];
   cell5.innerHTML =
-    '<input type="submit" name="remove" id="remove" value="Remove" onclick="removed()">';
+    '<input type="submit" name="remove" id="remove" value="Remove" onclick="remove()">';
+
   n++;
-  x++;
+  m++;
 }
-// let buttons = document.getElementById("remove");
-// buttons.addEventListener("click", removed);
+let buttons = document.getElementById("remove");
+buttons.addEventListener("onclick", remove);
 
-// function removed() {
-//   document.getElementById("show").deleteRow(x);
-//}
-let buttons=document.getElementById("remove");
-// //     let div=document.getElementById("one");
-    buttons.addEventListener("click",removed);
+function remove() {
+  document.getElementById("main-table").deleteRow(1);
+}
 
-    function removed(){
-
-        document.getElementById("show").deleteRow(1)
-    }
